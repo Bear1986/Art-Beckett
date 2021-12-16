@@ -1,12 +1,69 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
 body{
     background-color:antiquewhite;
 }
 /* main font style for these selectors*/
 h1,h2,h3,h4,h5,h6{
     font-family: 'Syne Mono', monospace;
-    text-shadow: -5px 3px 5px rgba(0, 0, 0, 0.69);
+
 }
 /* main font style for these selectors*/
 p {
     font-family: 'Nunito', sans-serif;
+}
+
+
+/* I did this to ensure it would be displayable on differint screen sizes */
+.container{
+max-width: 860px;
+margin:30px auto;
+}
+.top_sticky_nav_bar{
+    text-shadow: -5px 3px 5px rgba(0, 0, 0, 0.69);
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+}
+.My_Story{
+    /* float: left 200px; */
+    background-color:blanchedalmond;
+    text-align: center;
+    justify-content:left;
+    width: 30%;
+}
+:hover.My_Story{
+    color: #ffde59;
+    text-shadow: 13px 4px 11px #FFFFFF;
+    cursor: pointer;
+    
+}
+.Projects{
+    /* float: center 200px; */
+    background-color:blanchedalmond;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+}
+:hover.Projects{
+    color: #ff914d;
+    text-shadow: 13px 4px 11px #FFFFFF;
+    cursor: pointer;
+}
+.Contact{
+    /* float: right 800px; */
+    background-color:blanchedalmond;
+    text-align: center;
+    justify-content: right;
+    width: 30%;
+}
+:hover.Contact{
+    color:#7ed957;
+    text-shadow: 13px 4px 11px #FFFFFF;
+    cursor: pointer;
 }
