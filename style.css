@@ -1,10 +1,12 @@
 body{
     background-color:antiquewhite;
 }
-
+/* main font style for these selectors*/
 h1,h2,h3,h4,h5,h6{
     font-family: 'Syne Mono', monospace;
+    text-shadow: -5px 3px 5px rgba(0, 0, 0, 0.69);
 }
+/* main font style for these selectors*/
 p {
     font-family: 'Nunito', sans-serif;
 }
